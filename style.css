@@ -1,5 +1,6 @@
 *{
     font-family: cursive;
+    outline: solid red 2px;
 }
 button{
     border-radius: 50px 0 50px 0;
