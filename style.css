@@ -19,30 +19,22 @@ button{
     height: 50px;
     width: auto;
 }
-#header{
-    text-align: center;
-    background-color: aqua;
-    color:black;
-    border-radius: 25px 25px 25px 25px;
-    width: auto;
-    margin: 50px 0 50px 250px;
-}
-.lasagna-body, .teriyaki-chicken-body{
+.lasagna-body, .teriyaki-chicken-body, .paprika-chicken-body{
     text-align: center;
 }
-.lasagna-ingredients, .teriyaki-chicken-ingredients{
+.lasagna-ingredients, .teriyaki-chicken-ingredients, .paprika-chicken-ingredients{
     text-align: left;
 }
 #lasagna-intro-text, #lasagna-main-text, #servings{
     font-size: 15px;
     text-align: justify;
 }
-.lasagna-links, .teriyaki-chicken-links{
+.lasagna-links, .teriyaki-chicken-links, .paprika-chicken-links{
     margin: 25px 5px 25px 5px;
     width: 300px;
     align-items: center;
 }
-.lasagna-list-text, .teriyaki-chicken-ingredients{
+.lasagna-list-text, .teriyaki-chicken-ingredients, .paprika-chicken-list-text, .paprika-chicken-ingredients{
     font-size: 14px;
 }
 img{
