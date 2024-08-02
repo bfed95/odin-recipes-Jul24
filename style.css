@@ -1,5 +1,6 @@
 *{
     font-family: cursive;
+    border: solid red 2px;
 }
 button{
     border-radius: 50px 0 50px 0;
@@ -27,13 +28,13 @@ button{
     width: auto;
     margin: 50px 0 50px 250px;
 }
-.lasagna-body{
+.lasagna-body, .teriyaki-chicken-body{
     text-align: center;
 }
-.lasagna-ingredients{
+.lasagna-ingredients, .teriyaki-chicken-ingredients{
     text-align: left;
 }
-#lasagna-intro-text, #lasagna-main-text{
+#lasagna-intro-text, #lasagna-main-text, #servings{
     font-size: 15px;
     text-align: justify;
 }
@@ -42,7 +43,7 @@ button{
     width: 300px;
     align-items: center;
 }
-.lasagna-list-text{
+.lasagna-list-text, .teriyaki-chicken-ingredients{
     font-size: 14px;
 }
 img{
