@@ -1,6 +1,5 @@
 *{
     font-family: cursive;
-    outline: solid red 2px;
 }
 button{
     border-radius: 50px 0 50px 0;
@@ -16,16 +15,16 @@ button{
 }
 #return{
     text-align: center;
-    margin-left: 400px;
+    margin:auto;
     height: 50px;
-    width: 400px
+    width: auto;
 }
 #header{
     text-align: center;
     background-color: aqua;
     color:black;
     border-radius: 25px 25px 25px 25px;
-    width: 750px;
+    width: auto;
     margin: 50px 0 50px 250px;
 }
 .lasagna-body{
@@ -34,7 +33,21 @@ button{
 .lasagna-ingredients{
     text-align: left;
 }
-#lasagna-intro-text{
+#lasagna-intro-text, #lasagna-main-text{
     font-size: 15px;
     text-align: justify;
+}
+.lasagna-links{
+    margin: 25px 5px 25px 5px;
+    width: auto;
+    align-items: center;
+}
+.lasagna-list-text{
+    font-size: 14px;
+}
+img{
+    border-radius: 25px 25px 25px 25px;
+}
+#homepage-link{
+    width: auto;
 }
