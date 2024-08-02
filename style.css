@@ -1,6 +1,5 @@
 *{
     font-family: cursive;
-    border: solid red 2px;
 }
 button{
     border-radius: 50px 0 50px 0;
@@ -38,7 +37,7 @@ button{
     font-size: 15px;
     text-align: justify;
 }
-.lasagna-links{
+.lasagna-links, .teriyaki-chicken-links{
     margin: 25px 5px 25px 5px;
     width: 300px;
     align-items: center;
@@ -49,6 +48,6 @@ button{
 img{
     border-radius: 25px 25px 25px 25px;
 }
-#homepage-link{
+#homepage-link, #teriyaki-chicken-homepage-link{
     width: auto;
 }
