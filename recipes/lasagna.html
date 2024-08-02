@@ -6,12 +6,13 @@
             <link rel="stylesheet" href="../style.css">
         </head>
         <body class="lasagna-body">
-            <a href="../index.html" target="_self" title="Homepage" rel="noreferrer" id="header">
-                Home
-            </a>
+            <button>
+                <a id="homepage-link" href="../index.html" target="_self" title="Homepage" rel="noreferrer" id="header">
+                Home</a>
+            </button>
             <div class="Intro Title and image">
                 <h1>Lasagna Recipe </h1>
-                <img src="https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg" alt="A delicious picture of a 4 layered lasanga" title="Lasagna" height="240" width="300" rel="noreferrer">
+                <img src="https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg" alt="A delicious picture of a 4 layered lasanga" title="Lasagna" height="500px" width="100%" rel="noreferrer">
             </div>
             <!-- This is the start of the paragraphed text -->
             <div class="intro text">
@@ -24,10 +25,10 @@
                 </p>
             </div>
             <div class="lasagna-ingredients">
-                <h3>Ingredients</h3>
-                <p>To perfect this recepe, you will need:</p>
+                <h3 style="text-align: center;">Ingredients</h3>
+                <p style="text-align: center;">To perfect this recepe, you will need:</p>
                 <p><b>For the sauce:</b>
-                    <ul>
+                    <ul class="lasagna-list-text">
                         <li>2 Tbsp. extra-virgin olive oil</li>
                         <li>1 lb. spicy Italian sausage, casings removed</li>
                         <li>1 medium onion, finely chopped</li>
@@ -42,7 +43,7 @@
                 </p>
                 <p>
                     <b>For the Filling:</b>
-                    <ul>
+                    <ul class="lasagna-list-text">
                         <li>1½ cups (packed) fresh basil leaves</li>
                         <li>1 large egg</li>
                         <li>1 15-oz. container plus 1 cup part-skim ricotta cheese</li>
@@ -54,7 +55,7 @@
                 </p>
                 <p>
                     <b>Assembly:</b>
-                    <ul>
+                    <ul class="lasagna-list-text">
                         <li>12 no-boil lasagna noodles (from one 8-oz. package)</li>
                         <li>12 oz. low-moisture mozzarella cheese, coarsely grated (about 3 cups)</li>
                         <li>3oz. Parmesan cheese, coarsely grated (about 1 cup)</li>
@@ -64,20 +65,35 @@
             </div>
             <div class="Method">
                 <h3>How to make the best homemade lasagna recipe</h3>
-                <ol>
-                    <li><b>Start by making a homemade meat sauce.</b> This is done by sautéing an onion in olive oil until it begins to soften. This brings out the sweet flavor of the onion.  Then it is time to brown the ground beef until it is browned and the onion is softened. Stir in the marinara sauce and let it simmer on low.  If you want your lasagna to be extra saucy, I suggest adding 1/2 jar more marinara sauce.</li>
-                    <li><b>Make a parmesan ricotta cheese mixture.</b> This is what gives the lasagna the creamy filling. I love to flavor the ricotta cheese with a good amount of parmesan cheese, spices, and egg to bind it together.</li>
-                    <li><b>Use your favorite lasagna noodles.</b> There are two choices for lasagna noodles — oven-ready pre-cooked noodles or lasagna noodles that need to be cooked before hitting the oven. I have tried both ways and can attest that they both work!</li>
-                    <li><b>Bring on the cheese!</b> The best lasagna is full of cheese so be generous with the layers of mozzarella cheese</li>
-                    <li><b>Bake covered for 15 minutes</b> then remove the foil and continue to cook until the cheese is bubbly. Let it set up for 10 minutes before serving.</li>
+                <ol style="text-align: left;">
+                    <li><b>Start by making a homemade meat sauce.</b>
+                        <br>
+                        <span class="lasagna-list-text">This is done by sautéing an onion in olive oil until it begins to soften. This brings out the sweet flavor of the onion.  Then it is time to brown the ground beef until it is browned and the onion is softened. Stir in the marinara sauce and let it simmer on low.  If you want your lasagna to be extra saucy, I suggest adding 1/2 jar more marinara sauce.</span></li>
+                    <li><b>Make a parmesan ricotta cheese mixture.</b> 
+                        <br>
+                        <span class="lasagna-list-text">Is what gives the lasagna the creamy filling. I love to flavor the ricotta cheese with a good amount of parmesan cheese, spices, and egg to bind it together.</span></li>
+                    <li><b>Use your favorite lasagna noodles.</b>
+                        <br> 
+                        <span class="lasagna-list-text">There are two choices for lasagna noodles — oven-ready pre-cooked noodles or lasagna noodles that need to be cooked before hitting the oven. I have tried both ways and can attest that they both work!</span></li>
+                    <li><b>Bring on the cheese!</b><br>
+                        <span class="lasagna-list-text">Best lasagna is full of cheese so be generous with the layers of mozzarella cheese</span></li>
+                    <li><b>Bake covered for 15 minutes</b>
+                        <br>
+                        <span class="lasagna-list-text">Remove the foil and continue to cook until the cheese is bubbly. Let it set up for 10 minutes before serving.</span></li>
                 </ol>
             </div>
-            <div class="lasagna-links">
-                <p><strong>Like this?</strong> Dive right into our other receipes:</p>
-                        <button href="teriyaki-chicken.html">
-                            Teriyaki Chicken Recipe
-                        <button href="paprika-chicken-rice.html">Paprika Chicken Recipe</a>
+            <div>
+                <p><strong>Like this?</strong><br>Dive right into our other receipes:</p>
+                        <button class="lasagna-links">
+                            <a href="teriyaki-chicken.html">Teriyaki Chicken Recipe</a>
+                        </button>
+                        <button class="lasagna-links"> 
+                            <a href="paprika-chicken-rice.html">Paprika Chicken Recipe</a>
+                        </button>
             </div>
-            <a href="#header">Return to top</a>
+            <br>
+                <button>
+                    <a href="#header">Return to top</a>
+                </button>
         </body>
     </html>
